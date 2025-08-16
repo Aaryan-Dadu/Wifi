@@ -1,0 +1,6 @@
+com.mmmut.wifiautologin.test.app-annotation-experimental-1.3.0-0 C:\Users\AD\.gradle\caches\8.12\transforms\5dc9a9d3698f517a840e5b09cd0af257\transformed\annotation-experimental-1.3.0\res
+com.mmmut.wifiautologin.test.app-core-1.5.0-1 C:\Users\AD\.gradle\caches\8.12\transforms\da6f431536c58ad8cf08e7f45c50678d\transformed\core-1.5.0\res
+com.mmmut.wifiautologin.test.app-androidTest-2 C:\Users\AD\AndroidStudioProjects\Wifi\app\build\generated\res\resValues\androidTest\debug
+com.mmmut.wifiautologin.test.app-mergeDebugAndroidTestResources-3 C:\Users\AD\AndroidStudioProjects\Wifi\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.mmmut.wifiautologin.test.app-mergeDebugAndroidTestResources-4 C:\Users\AD\AndroidStudioProjects\Wifi\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.mmmut.wifiautologin.test.app-debugAndroidTest-5 C:\Users\AD\AndroidStudioProjects\Wifi\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

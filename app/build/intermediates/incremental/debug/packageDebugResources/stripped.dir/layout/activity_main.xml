@@ -19,12 +19,7 @@
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
-            <ImageView
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:layout_marginEnd="16dp"
-                android:contentDescription="MMMUT Logo"
-                android:src="@drawable/mmmut_logo" />
+            <!-- Logo removed for stability -->
 
         </androidx.appcompat.widget.Toolbar>
 
@@ -76,8 +71,7 @@
                             android:layout_marginBottom="16dp"
                             android:hint="Roll Number"
                             app:boxStrokeColor="@color/colorPrimary"
-                            app:hintTextColor="@color/colorPrimary"
-                            app:startIconDrawable="@drawable/ic_person">
+                            app:hintTextColor="@color/colorPrimary">
 
                             <com.google.android.material.textfield.TextInputEditText
                                 android:id="@+id/etRollNumber"
@@ -95,8 +89,7 @@
                             android:hint="Password"
                             app:boxStrokeColor="@color/colorPrimary"
                             app:endIconMode="password_toggle"
-                            app:hintTextColor="@color/colorPrimary"
-                            app:startIconDrawable="@drawable/ic_lock">
+                            app:hintTextColor="@color/colorPrimary">
 
                             <com.google.android.material.textfield.TextInputEditText
                                 android:id="@+id/etPassword"
@@ -210,21 +203,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
-                            android:drawablePadding="8dp"
-                            android:drawableStart="@drawable/ic_schedule"
                             android:text="Never logged in"
-                            android:textSize="14sp"
-                            app:drawableTint="@color/colorPrimary" />
+                            android:textSize="14sp" />
 
                         <TextView
                             android:id="@+id/tvLastLoginResult"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:drawablePadding="8dp"
-                            android:drawableStart="@drawable/ic_info"
                             android:text="No status"
-                            android:textSize="14sp"
-                            app:drawableTint="@color/colorPrimary" />
+                            android:textSize="14sp" />
 
                     </LinearLayout>
 

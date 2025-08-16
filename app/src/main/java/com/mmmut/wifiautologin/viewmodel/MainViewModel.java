@@ -10,12 +10,12 @@ import com.mmmut.wifiautologin.data.PreferenceManager;
 public class MainViewModel extends AndroidViewModel {
 
     private final PreferenceManager preferenceManager;
-    private final MutableLiveData<String> rollNumber = new MutableLiveData<>();
-    private final MutableLiveData<String> password = new MutableLiveData<>();
-    private final MutableLiveData<Boolean> autoLoginEnabled = new MutableLiveData<>();
-    private final MutableLiveData<String> lastLoginTime = new MutableLiveData<>();
-    private final MutableLiveData<String> lastLoginResult = new MutableLiveData<>();
-    private final MutableLiveData<String> toastMessage = new MutableLiveData<>();
+    private final MutableLiveData<String> rollNumber = new MutableLiveData<>("");
+    private final MutableLiveData<String> password = new MutableLiveData<>("");
+    private final MutableLiveData<Boolean> autoLoginEnabled = new MutableLiveData<>(false);
+    private final MutableLiveData<String> lastLoginTime = new MutableLiveData<>(null);
+    private final MutableLiveData<String> lastLoginResult = new MutableLiveData<>(null);
+    private final MutableLiveData<String> toastMessage = new MutableLiveData<>(null);
 
     public MainViewModel(@NonNull Application application) {
         super(application);
@@ -26,35 +26,95 @@ public class MainViewModel extends AndroidViewModel {
         } catch (Exception e) {
             android.util.Log.e("MainViewModel", "Error initializing MainViewModel, using fallback", e);
             // Create a fallback without encryption
-            tempPrefManager = new PreferenceManager(application);
+            try {
+                tempPrefManager = new PreferenceManager(application);
+            } catch (Exception ex) {
+                android.util.Log.e("MainViewModel", "Critical error - cannot create PreferenceManager", ex);
+                // Create a minimal fallback
+                tempPrefManager = null;
+            }
         }
         preferenceManager = tempPrefManager;
     }
 
     public void loadCredentials() {
-        rollNumber.setValue(preferenceManager.getRollNumber());
-        password.setValue(preferenceManager.getPassword());
-        autoLoginEnabled.setValue(preferenceManager.isAutoLoginEnabled());
-        lastLoginTime.setValue(preferenceManager.getLastLoginTime());
-        lastLoginResult.setValue(preferenceManager.getLastLoginResult());
+        try {
+            if (preferenceManager != null) {
+                String roll = preferenceManager.getRollNumber();
+                String pass = preferenceManager.getPassword();
+                Boolean enabled = preferenceManager.isAutoLoginEnabled();
+                String time = preferenceManager.getLastLoginTime();
+                String result = preferenceManager.getLastLoginResult();
+                
+                rollNumber.setValue(roll != null ? roll : "");
+                password.setValue(pass != null ? pass : "");
+                autoLoginEnabled.setValue(enabled != null ? enabled : false);
+                lastLoginTime.setValue(time);
+                lastLoginResult.setValue(result);
+            } else {
+                // Set default values if PreferenceManager is null
+                rollNumber.setValue("");
+                password.setValue("");
+                autoLoginEnabled.setValue(false);
+                lastLoginTime.setValue(null);
+                lastLoginResult.setValue(null);
+            }
+        } catch (Exception e) {
+            android.util.Log.e("MainViewModel", "Error loading credentials", e);
+            // Set safe default values
+            rollNumber.setValue("");
+            password.setValue("");
+            autoLoginEnabled.setValue(false);
+            lastLoginTime.setValue(null);
+            lastLoginResult.setValue(null);
+        }
     }
 
     public void saveCredentials(String rollNumber, String password) {
-        preferenceManager.saveCredentials(rollNumber, password);
-        this.rollNumber.setValue(rollNumber);
-        this.password.setValue(password);
-        toastMessage.setValue("Credentials saved successfully");
+        try {
+            if (preferenceManager != null) {
+                if (rollNumber == null) rollNumber = "";
+                if (password == null) password = "";
+                
+                preferenceManager.saveCredentials(rollNumber, password);
+                this.rollNumber.setValue(rollNumber);
+                this.password.setValue(password);
+                toastMessage.setValue("Credentials saved successfully");
+            } else {
+                toastMessage.setValue("Error: App not properly initialized");
+            }
+        } catch (Exception e) {
+            android.util.Log.e("MainViewModel", "Error saving credentials", e);
+            toastMessage.setValue("Error saving credentials");
+        }
     }
 
     public void setAutoLoginEnabled(boolean enabled) {
-        preferenceManager.setAutoLoginEnabled(enabled);
-        autoLoginEnabled.setValue(enabled);
-        toastMessage.setValue(enabled ? "Auto-login enabled" : "Auto-login disabled");
+        try {
+            if (preferenceManager != null) {
+                preferenceManager.setAutoLoginEnabled(enabled);
+                autoLoginEnabled.setValue(enabled);
+                toastMessage.setValue(enabled ? "Auto-login enabled" : "Auto-login disabled");
+            } else {
+                toastMessage.setValue("Error: App not properly initialized");
+            }
+        } catch (Exception e) {
+            android.util.Log.e("MainViewModel", "Error setting auto login enabled", e);
+            toastMessage.setValue("Error updating settings");
+        }
     }
 
     public void refreshStatus() {
-        lastLoginTime.setValue(preferenceManager.getLastLoginTime());
-        lastLoginResult.setValue(preferenceManager.getLastLoginResult());
+        try {
+            if (preferenceManager != null) {
+                String time = preferenceManager.getLastLoginTime();
+                String result = preferenceManager.getLastLoginResult();
+                lastLoginTime.setValue(time);
+                lastLoginResult.setValue(result);
+            }
+        } catch (Exception e) {
+            android.util.Log.e("MainViewModel", "Error refreshing status", e);
+        }
     }
 
     // Getters

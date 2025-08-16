@@ -21,16 +21,27 @@ public class WiFiLoginWorker extends Worker {
     public Result doWork() {
         Log.d(TAG, "WiFi login work started");
         
+        PreferenceManager preferenceManager = null;
+        
         try {
-            PreferenceManager preferenceManager = new PreferenceManager(getApplicationContext());
+            Context context = getApplicationContext();
+            if (context == null) {
+                Log.e(TAG, "Application context is null");
+                return Result.failure();
+            }
+            
+            preferenceManager = new PreferenceManager(context);
             
             // Get saved credentials
             String rollNumber = preferenceManager.getRollNumber();
             String password = preferenceManager.getPassword();
             
-            if (rollNumber.isEmpty() || password.isEmpty()) {
+            if (rollNumber == null || rollNumber.isEmpty() || 
+                password == null || password.isEmpty()) {
                 Log.e(TAG, "No credentials available");
-                preferenceManager.setLastLoginResult("Failed: No credentials");
+                if (preferenceManager != null) {
+                    preferenceManager.setLastLoginResult("Failed: No credentials");
+                }
                 return Result.failure();
             }
             
@@ -39,8 +50,10 @@ public class WiFiLoginWorker extends Worker {
             LoginService.LoginResult result = loginService.performLogin(rollNumber, password);
             
             // Update preferences with result
-            preferenceManager.setLastLoginTime(System.currentTimeMillis());
-            preferenceManager.setLastLoginResult(result.message);
+            if (preferenceManager != null) {
+                preferenceManager.setLastLoginTime(System.currentTimeMillis());
+                preferenceManager.setLastLoginResult(result.message);
+            }
             
             Log.d(TAG, "Login result: " + result.message);
             
@@ -49,9 +62,14 @@ public class WiFiLoginWorker extends Worker {
         } catch (Exception e) {
             Log.e(TAG, "Error during login", e);
             
-            PreferenceManager preferenceManager = new PreferenceManager(getApplicationContext());
-            preferenceManager.setLastLoginTime(System.currentTimeMillis());
-            preferenceManager.setLastLoginResult("Failed: " + e.getMessage());
+            try {
+                if (preferenceManager != null) {
+                    preferenceManager.setLastLoginTime(System.currentTimeMillis());
+                    preferenceManager.setLastLoginResult("Failed: " + e.getMessage());
+                }
+            } catch (Exception ex) {
+                Log.e(TAG, "Error updating login result", ex);
+            }
             
             return Result.failure();
         }

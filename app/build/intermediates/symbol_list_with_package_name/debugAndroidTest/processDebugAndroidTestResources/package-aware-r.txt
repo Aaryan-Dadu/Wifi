@@ -1,0 +1,3 @@
+com.mmmut.wifiautologin.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

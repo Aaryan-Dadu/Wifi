@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorError">#F44336</color>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorWarning">#FF9800</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">MMMUT WiFi Auto Login</string>
+    <string name="auto_login_description">Automatically login when connected to MMMUT WiFi</string>
+    <string name="auto_login_disabled">Auto-login disabled</string>
+    <string name="auto_login_enabled">Auto-login enabled</string>
+    <string name="auto_login_settings">Auto Login Settings</string>
+    <string name="credentials_saved">Credentials saved successfully</string>
+    <string name="enable_auto_login">Enable Auto Login</string>
+    <string name="enter_credentials">Please enter both roll number and password</string>
+    <string name="last_login">Last login: %s</string>
+    <string name="login_credentials">Login Credentials</string>
+    <string name="never_logged_in">Never logged in</string>
+    <string name="no_status">No status</string>
+    <string name="password">Password</string>
+    <string name="permissions_required">Permissions are required for WiFi auto-login to work</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="save_credentials">Save Credentials</string>
+    <string name="status">Status</string>
+    <string name="status_label">Status: %s</string>
+    <style name="Theme.MMMUTWiFiAutoLogin" parent="Theme.Material3.DayNight">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.MMMUTWiFiAutoLogin.Splash" parent="Theme.MMMUTWiFiAutoLogin">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

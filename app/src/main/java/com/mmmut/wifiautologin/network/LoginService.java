@@ -24,7 +24,15 @@ public class LoginService {
     }
 
     public LoginResult performLogin(String rollNumber, String password) {
+        if (rollNumber == null || password == null) {
+            Log.e(TAG, "Invalid credentials provided");
+            return new LoginResult(false, "Invalid credentials");
+        }
+        
         Log.d(TAG, "Attempting login for roll number: " + rollNumber);
+        
+        Response getResponse = null;
+        Response postResponse = null;
         
         try {
             // First, try to get the login page to understand the form structure
@@ -33,16 +41,14 @@ public class LoginService {
                 .get()
                 .build();
 
-            Response getResponse = client.newCall(getRequest).execute();
+            getResponse = client.newCall(getRequest).execute();
             
             if (!getResponse.isSuccessful()) {
                 Log.e(TAG, "Failed to access login page. Response code: " + getResponse.code());
                 return new LoginResult(false, "Failed to access login portal");
             }
 
-            String loginPageContent = getResponse.body().string();
-            getResponse.close();
-            
+            String loginPageContent = getResponse.body() != null ? getResponse.body().string() : "";
             Log.d(TAG, "Successfully accessed login page");
 
             // Build the POST request with form data
@@ -63,11 +69,10 @@ public class LoginService {
                 .addHeader("Referer", LOGIN_URL)
                 .build();
 
-            Response postResponse = client.newCall(postRequest).execute();
+            postResponse = client.newCall(postRequest).execute();
             
             if (postResponse.isSuccessful()) {
-                String responseBody = postResponse.body().string();
-                postResponse.close();
+                String responseBody = postResponse.body() != null ? postResponse.body().string() : "";
                 
                 Log.d(TAG, "Login request completed with status: " + postResponse.code());
                 
@@ -102,6 +107,18 @@ public class LoginService {
         } catch (Exception e) {
             Log.e(TAG, "Unexpected error during login", e);
             return new LoginResult(false, "Error: " + e.getMessage());
+        } finally {
+            // Clean up resources
+            try {
+                if (getResponse != null && getResponse.body() != null) {
+                    getResponse.body().close();
+                }
+                if (postResponse != null && postResponse.body() != null) {
+                    postResponse.body().close();
+                }
+            } catch (Exception e) {
+                Log.w(TAG, "Error closing response bodies", e);
+            }
         }
     }
 
@@ -111,7 +128,7 @@ public class LoginService {
 
         public LoginResult(boolean success, String message) {
             this.success = success;
-            this.message = message;
+            this.message = message != null ? message : "";
         }
     }
 }

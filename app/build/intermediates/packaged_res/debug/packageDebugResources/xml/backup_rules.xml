@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Sample backup rules file; uncomment and customize as necessary.
+   See https://developer.android.com/guide/topics/data/autobackup
+   for details.
+   Note: This file is ignored unless the your application's manifest has android:fullBackupContent="@xml/backup_rules"
+   If you're using Auto Backup, make sure to include both backup_rules and data_extraction_rules.
+   For more info, see https://developer.android.com/guide/topics/data/autobackup
+-->
+<full-backup-content>
+    <!-- Exclude encrypted credentials from backup for security -->
+    <exclude domain="sharedpref" path="wifi_auto_login_prefs_encrypted"/>
+    
+    <!-- Include other app data -->
+    <include domain="sharedpref" path="wifi_auto_login_prefs_regular"/>
+</full-backup-content>
