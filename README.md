@@ -24,6 +24,10 @@ An Android application that automatically logs into MMMUT WiFi networks when con
 2. Import the project
 3. Build and run on your Android device
 
+## OR
+
+- **Just Download the MMMUT Wifi Auto Login.apk file**
+
 ## How It Works
 
 1. **Setup**: Enter your roll number and password in the app
