@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.mmmut.wifiautologin.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "com.mmmut.wifiautologin.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-mergeDebugResources-37:/layout/activity_splash.xml",
+        "source": "com.mmmut.wifiautologin.app-main-40:/layout/activity_splash.xml"
+    }
+]

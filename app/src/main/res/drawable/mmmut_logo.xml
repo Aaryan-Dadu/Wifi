@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+  
+  <!-- Background circle -->
+  <path
+      android:pathData="M100,100m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0"
+      android:fillColor="#1976D2"/>
+  
+  <!-- Inner circle -->
+  <path
+      android:pathData="M100,100m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0"
+      android:fillColor="#FFFFFF"/>
+      
+  <!-- University symbol - simplified gear/cog -->
+  <path
+      android:pathData="M100,50L110,65L125,60L120,75L135,80L125,95L135,110L120,115L125,130L110,125L100,140L90,125L75,130L80,115L65,110L75,95L65,80L80,75L75,60L90,65Z"
+      android:fillColor="#1976D2"/>
+      
+  <!-- Center circle -->
+  <path
+      android:pathData="M100,100m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"
+      android:fillColor="#FFFFFF"/>
+      
+  <!-- MMMUT text representation -->
+  <path
+      android:pathData="M70,160L75,160L75,170L80,170L80,160L85,160L85,180L80,180L80,175L75,175L75,180L70,180Z"
+      android:fillColor="#1976D2"/>
+  <path
+      android:pathData="M90,160L95,160L95,170L100,170L100,160L105,160L105,180L100,180L100,175L95,175L95,180L90,180Z"
+      android:fillColor="#1976D2"/>
+  <path
+      android:pathData="M110,160L115,160L115,170L120,170L120,160L125,160L125,180L120,180L120,175L115,175L115,180L110,180Z"
+      android:fillColor="#1976D2"/>
+  
+</vector>

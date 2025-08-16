@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MMMUT WiFi Auto Login</string>
+    <string name="login_credentials">Login Credentials</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="password">Password</string>
+    <string name="save_credentials">Save Credentials</string>
+    <string name="auto_login_settings">Auto Login Settings</string>
+    <string name="enable_auto_login">Enable Auto Login</string>
+    <string name="auto_login_description">Automatically login when connected to MMMUT WiFi</string>
+    <string name="status">Status</string>
+    <string name="never_logged_in">Never logged in</string>
+    <string name="no_status">No status</string>
+    <string name="last_login">Last login: %s</string>
+    <string name="status_label">Status: %s</string>
+    <string name="credentials_saved">Credentials saved successfully</string>
+    <string name="auto_login_enabled">Auto-login enabled</string>
+    <string name="auto_login_disabled">Auto-login disabled</string>
+    <string name="enter_credentials">Please enter both roll number and password</string>
+    <string name="permissions_required">Permissions are required for WiFi auto-login to work</string>
+</resources>

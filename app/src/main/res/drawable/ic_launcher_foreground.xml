@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <group android:scaleX="0.58"
+      android:scaleY="0.58"
+      android:translateX="22.68"
+      android:translateY="22.68">
+    
+    <!-- WiFi signal icon -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0"/>
+    
+    <!-- WiFi waves -->
+    <path android:fillColor="@color/colorPrimary"
+        android:pathData="M54,25C67.25,25 79.71,30.35 89,39.17L84.17,44C76.67,36.5 66.08,32 54,32S31.33,36.5 23.83,44L19,39.17C28.29,30.35 40.75,25 54,25Z"/>
+    
+    <path android:fillColor="@color/colorPrimary"
+        android:pathData="M54,39C62.84,39 71.07,42.93 77,49.47L72.17,54.3C68.17,50.3 61.52,48 54,48S39.83,50.3 35.83,54.3L31,49.47C36.93,42.93 45.16,39 54,39Z"/>
+    
+    <path android:fillColor="@color/colorPrimary"
+        android:pathData="M54,53C58.42,53 62.34,55.42 65,59.06L60.17,63.89C58.67,62.39 56.42,61.5 54,61.5S49.33,62.39 47.83,63.89L43,59.06C45.66,55.42 49.58,53 54,53Z"/>
+    
+    <!-- Center dot -->
+    <path android:fillColor="@color/colorPrimary"
+        android:pathData="M54,67m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0"/>
+  </group>
+</vector>

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/drawable_ic_person.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/drawable_mmmut_logo.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/drawable/mmmut_logo.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/layout_activity_splash.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/drawable_ic_info.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/xml_data_extraction_rules.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/drawable_ic_lock.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/drawable_ic_schedule.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/drawable/ic_schedule.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/xml_backup_rules.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.mmmut.wifiautologin.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mmmut.wifiautologin.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

@@ -1,0 +1,628 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:2:1-68:12
+MERGED from [androidx.databinding:viewbinding:8.1.2] C:\Users\ayush\.gradle\caches\8.12\transforms\6775eb31799f1a347461c612d436c704\transformed\viewbinding-8.1.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ayush\.gradle\caches\8.12\transforms\0cd69e8e26dd7e66522dd44e2c9238b1\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ayush\.gradle\caches\8.12\transforms\3eb23d9c8315546ab7db82fe3331b27c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ayush\.gradle\caches\8.12\transforms\27ece17d839d33636b8c52fd211f7895\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ayush\.gradle\caches\8.12\transforms\530a4a66b57fcc344ec81b1b1ce271a8\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\ayush\.gradle\caches\8.12\transforms\c357bd08a5c783bdf344d548ee06a2a8\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\e7e683cc1760465b7e1ad1c8e2396796\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\0d7b26decc86fd4deef9490946160f9b\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b20655da9e8135f64f6091e944e74ee\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ayush\.gradle\caches\8.12\transforms\992d0470ccda4ec976d0a82644b527ee\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\ayush\.gradle\caches\8.12\transforms\a6d45e9b6a83e3d649a68554440f34a6\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\39888fa9e1fc6ba4266ced3eec6c2f52\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\e6b5b8629695dc7847bfae20855ff896\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6f504a884bfa0a6fa92fe75bc4f18917\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\f582b61920db19b0966735fffd089a14\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\20cc2013122cc0c3f6852120fe1f9855\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\d36b4414b1ee8daf1d6b77ead5ba6cbb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ayush\.gradle\caches\8.12\transforms\964c63829d63161d19bb265fc807d1b1\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\0da452432fb107d33c2b6810754342d0\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\91a30dcd1f56c8d4d4ddfb5cbcbb8d62\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\ca5df25bd1c901dc0e44e38b05efcf04\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\c6fa169b3df85c60d0d419941a801d07\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7b467cd73d8e2c31df6788a449a9f478\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\4e0bcaa112555aa2f6a6db156608e682\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\4da8ebb2674ab7af54d73590a1b141f2\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\acae82aea3ac0c2f1cdbac2e36bd6e4d\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6f3c429e8d1e2234104763fb2279ef17\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\b8816c3420a2501fba6796f5763bf5fd\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\276b7d1a583f54b341f7a5155b46f8f3\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\3261868f0a1610bfc7530841afde3e46\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\28bfb515bcfc5f018d9b4c11da4bdafe\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\c2d94ac5726111b220e3d5a8a1931ec0\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\00801fc732b296784db9e8cbc918ca5c\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\965ab8b823aa8e6a1e8a716be6e36304\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\2864d3c27d4e46e721050afc5691af9c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\afc6cc2209eac397185d59fa05df012d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\aa69b5a863d0c48169aec5714b636f46\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\5cf75a8cfe4458b31b9272901524a856\transformed\sqlite-2.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\4547f4a3ab4dd350eb13c123ab2e67f7\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\3744c1e51a1bae95e3c651d0ff372fdf\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\13d3bec1f993629fe779582d4a43bf83\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\bd902743effbb11d307a0f5228512cce\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\795ca7870df1f01a1506f15f6d74758d\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:13:5-68
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:14:5-77
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:14:22-74
+application
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:16:5-66:19
+INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:16:5-66:19
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ayush\.gradle\caches\8.12\transforms\0cd69e8e26dd7e66522dd44e2c9238b1\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ayush\.gradle\caches\8.12\transforms\0cd69e8e26dd7e66522dd44e2c9238b1\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ayush\.gradle\caches\8.12\transforms\3eb23d9c8315546ab7db82fe3331b27c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ayush\.gradle\caches\8.12\transforms\3eb23d9c8315546ab7db82fe3331b27c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\965ab8b823aa8e6a1e8a716be6e36304\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\965ab8b823aa8e6a1e8a716be6e36304\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\afc6cc2209eac397185d59fa05df012d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\afc6cc2209eac397185d59fa05df012d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:22:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:20:9-54
+	android:roundIcon
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:23:9-54
+	tools:targetApi
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:27:9-29
+	android:icon
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:25:9-56
+	android:dataExtractionRules
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:19:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:17:9-49
+activity#com.mmmut.wifiautologin.ui.SplashActivity
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:33:13-67
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:31:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:36:27-74
+activity#com.mmmut.wifiautologin.ui.MainActivity
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:41:9-45:63
+	android:label
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:44:13-45
+	android:exported
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:43:13-37
+	android:theme
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:45:13-60
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:42:13-44
+receiver#com.mmmut.wifiautologin.receivers.WiFiConnectionReceiver
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:48:9-58:20
+	android:enabled
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:49:13-61
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:android.net.wifi.STATE_CHANGE+action:name:android.net.wifi.WIFI_STATE_CHANGED
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:52:13-57:29
+	android:priority
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:52:28-51
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:53:17-78
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:53:25-75
+action#android.net.wifi.STATE_CHANGE
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:54:17-72
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:54:25-69
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:55:17-79
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:55:25-76
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:56:25-76
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:61:9-64:34
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+	tools:node
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:64:13-31
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+	android:foregroundServiceType
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:63:13-53
+	android:name
+		ADDED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml:62:13-81
+uses-sdk
+INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.1.2] C:\Users\ayush\.gradle\caches\8.12\transforms\6775eb31799f1a347461c612d436c704\transformed\viewbinding-8.1.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.2] C:\Users\ayush\.gradle\caches\8.12\transforms\6775eb31799f1a347461c612d436c704\transformed\viewbinding-8.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ayush\.gradle\caches\8.12\transforms\0cd69e8e26dd7e66522dd44e2c9238b1\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ayush\.gradle\caches\8.12\transforms\0cd69e8e26dd7e66522dd44e2c9238b1\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ayush\.gradle\caches\8.12\transforms\3eb23d9c8315546ab7db82fe3331b27c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ayush\.gradle\caches\8.12\transforms\3eb23d9c8315546ab7db82fe3331b27c\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ayush\.gradle\caches\8.12\transforms\27ece17d839d33636b8c52fd211f7895\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ayush\.gradle\caches\8.12\transforms\27ece17d839d33636b8c52fd211f7895\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ayush\.gradle\caches\8.12\transforms\530a4a66b57fcc344ec81b1b1ce271a8\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ayush\.gradle\caches\8.12\transforms\530a4a66b57fcc344ec81b1b1ce271a8\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\ayush\.gradle\caches\8.12\transforms\c357bd08a5c783bdf344d548ee06a2a8\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\ayush\.gradle\caches\8.12\transforms\c357bd08a5c783bdf344d548ee06a2a8\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\e7e683cc1760465b7e1ad1c8e2396796\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\e7e683cc1760465b7e1ad1c8e2396796\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\0d7b26decc86fd4deef9490946160f9b\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\0d7b26decc86fd4deef9490946160f9b\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b20655da9e8135f64f6091e944e74ee\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b20655da9e8135f64f6091e944e74ee\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ayush\.gradle\caches\8.12\transforms\992d0470ccda4ec976d0a82644b527ee\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ayush\.gradle\caches\8.12\transforms\992d0470ccda4ec976d0a82644b527ee\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\ayush\.gradle\caches\8.12\transforms\a6d45e9b6a83e3d649a68554440f34a6\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\ayush\.gradle\caches\8.12\transforms\a6d45e9b6a83e3d649a68554440f34a6\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\39888fa9e1fc6ba4266ced3eec6c2f52\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\39888fa9e1fc6ba4266ced3eec6c2f52\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\e6b5b8629695dc7847bfae20855ff896\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\e6b5b8629695dc7847bfae20855ff896\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6f504a884bfa0a6fa92fe75bc4f18917\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6f504a884bfa0a6fa92fe75bc4f18917\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\f582b61920db19b0966735fffd089a14\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\f582b61920db19b0966735fffd089a14\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\20cc2013122cc0c3f6852120fe1f9855\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\20cc2013122cc0c3f6852120fe1f9855\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\d36b4414b1ee8daf1d6b77ead5ba6cbb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\d36b4414b1ee8daf1d6b77ead5ba6cbb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ayush\.gradle\caches\8.12\transforms\964c63829d63161d19bb265fc807d1b1\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ayush\.gradle\caches\8.12\transforms\964c63829d63161d19bb265fc807d1b1\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\0da452432fb107d33c2b6810754342d0\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\0da452432fb107d33c2b6810754342d0\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\91a30dcd1f56c8d4d4ddfb5cbcbb8d62\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\91a30dcd1f56c8d4d4ddfb5cbcbb8d62\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\ca5df25bd1c901dc0e44e38b05efcf04\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\ca5df25bd1c901dc0e44e38b05efcf04\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\c6fa169b3df85c60d0d419941a801d07\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\c6fa169b3df85c60d0d419941a801d07\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7b467cd73d8e2c31df6788a449a9f478\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7b467cd73d8e2c31df6788a449a9f478\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\4e0bcaa112555aa2f6a6db156608e682\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\4e0bcaa112555aa2f6a6db156608e682\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\4da8ebb2674ab7af54d73590a1b141f2\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\4da8ebb2674ab7af54d73590a1b141f2\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\acae82aea3ac0c2f1cdbac2e36bd6e4d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\acae82aea3ac0c2f1cdbac2e36bd6e4d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6f3c429e8d1e2234104763fb2279ef17\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6f3c429e8d1e2234104763fb2279ef17\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\b8816c3420a2501fba6796f5763bf5fd\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\b8816c3420a2501fba6796f5763bf5fd\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\276b7d1a583f54b341f7a5155b46f8f3\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\276b7d1a583f54b341f7a5155b46f8f3\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\3261868f0a1610bfc7530841afde3e46\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\3261868f0a1610bfc7530841afde3e46\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\28bfb515bcfc5f018d9b4c11da4bdafe\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\28bfb515bcfc5f018d9b4c11da4bdafe\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\c2d94ac5726111b220e3d5a8a1931ec0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\c2d94ac5726111b220e3d5a8a1931ec0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\00801fc732b296784db9e8cbc918ca5c\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\00801fc732b296784db9e8cbc918ca5c\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\965ab8b823aa8e6a1e8a716be6e36304\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\965ab8b823aa8e6a1e8a716be6e36304\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\2864d3c27d4e46e721050afc5691af9c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\2864d3c27d4e46e721050afc5691af9c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\afc6cc2209eac397185d59fa05df012d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\afc6cc2209eac397185d59fa05df012d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\aa69b5a863d0c48169aec5714b636f46\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\aa69b5a863d0c48169aec5714b636f46\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\5cf75a8cfe4458b31b9272901524a856\transformed\sqlite-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\5cf75a8cfe4458b31b9272901524a856\transformed\sqlite-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\4547f4a3ab4dd350eb13c123ab2e67f7\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\4547f4a3ab4dd350eb13c123ab2e67f7\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\3744c1e51a1bae95e3c651d0ff372fdf\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\3744c1e51a1bae95e3c651d0ff372fdf\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\13d3bec1f993629fe779582d4a43bf83\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\13d3bec1f993629fe779582d4a43bf83\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\bd902743effbb11d307a0f5228512cce\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ayush\.gradle\caches\8.12\transforms\bd902743effbb11d307a0f5228512cce\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\795ca7870df1f01a1506f15f6d74758d\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\795ca7870df1f01a1506f15f6d74758d\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ayush\MMMUTWiFiAutoLogin\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\afc6cc2209eac397185d59fa05df012d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ayush\.gradle\caches\8.12\transforms\afc6cc2209eac397185d59fa05df012d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\ayush\.gradle\caches\8.12\transforms\dc594137fd92b368f35821f45cc9630c\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ayush\.gradle\caches\8.12\transforms\55f06d0089b1dd1cc8e72356d3268c7d\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ayush\.gradle\caches\8.12\transforms\d0c6aaae10dbbb798729ed0a48ddabc1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.mmmut.wifiautologin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.mmmut.wifiautologin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6743cb5246d222a263a575759be8a733\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\ayush\.gradle\caches\8.12\transforms\6b98882cfd43d5fcafee5b24ac0b0a95\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ayush\.gradle\caches\8.12\transforms\7032da171e6a026885f0e8adfd307019\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
